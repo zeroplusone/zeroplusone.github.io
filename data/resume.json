@@ -1,0 +1,178 @@
+{
+  "_comment": "reference - https://jsonresume.org/schema/",
+  "basics": {
+    "name": "ChiaYing Lin",
+    "label": "Programmer",
+    "picture": "img/profile-picture.jpg",
+    "email": "a711186@gmail.com",
+    "website": "http://zeroplusone.github.io",
+    "summary": "I am a Computer Science phD student in NCKU",
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "zeroplusone",
+        "url": "https://github.com/zeroplusone"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Chia-Ying Lin",
+        "url": "https://tw.linkedin.com/in/chia-ying-lin-939492b"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "HTC",
+      "position": "Summer Intern",
+      "startDate": "2015-07-01",
+      "endDate": "2015-08-31",
+      "summary": "responsible for automation test of android framework in android multimedia framework team",
+      "highlights": [
+        "The best team in VR project"
+      ]
+    },
+    {
+      "company": "Yahoo!",
+      "position": "Summer Intern",
+      "startDate": "2016-07-01",
+      "endDate": "2016-08-31",
+      "summary": "responsible for developing monitor dashboard in search product engineer team",
+      "highlights": [
+        ""
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "NCKU student service club",
+      "position": "member",
+      "website": "https://www.facebook.com/ServiceClub.NCKU/?fref=ts",
+      "startDate": "2011",
+      "endDate": "2015",
+      "summary": "holding a camp for rural elementary school and volunteering in nursing home",
+      "highlights": [
+        "Excellent club prize in NCKU"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "National Cheng Kung University",
+      "area": "Tainan, Taiwan",
+      "studyType": "phD",
+      "startDate": "2015",
+      "endDate": "now",
+      "gpa": "4.3",
+      "courses": [
+        "Database Management System"
+      ]
+    },
+    {
+      "institution": "National Cheng Kung University",
+      "area": "Tainan, Taiwan",
+      "studyType": "Bachelor",
+      "startDate": "2011-09-01",
+      "endDate": "2015-06-30",
+      "gpa": "3.93",
+      "courses": [
+        "Competitive Algorithm Design and Practice",
+        "Computer System and Network Administration",
+        "Mobile Network and Services",
+        "Wireless Communication and Mobile Networks"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Outstanding Engineering Student Award",
+      "date": "2015",
+      "awarder": "Chinese Institute of Engineers, Taiwan",
+      "summary": ""
+    },
+    {
+      "title": "Garmin Scholarship",
+      "date": "2015",
+      "awarder": "Garmin",
+      "summary": ""
+    }
+  ],
+  "publications": [
+    {
+      "name": "Gateway-Assisted Retransmission for Lightweight and Reliable IoT Communications",
+      "publisher": "Sensors 16 (10), 1560",
+      "releaseDate": "2016",
+      "website": "http://www.mdpi.com/1424-8220/16/10/1560/htm",
+      "summary": ""
+    },
+    {
+      "name": "Optimistic DRX for machine-type communications",
+      "publisher": "Communications (ICC), 2016 IEEE International Conference",
+      "releaseDate": "2016",
+      "website": "http://ieeexplore.ieee.org/abstract/document/7510813/",
+      "summary": ""
+    },
+    {
+      "name": "Finding Nearby Available Roadside Parking Spot",
+      "publisher": "The 27th IPPR Conference on Computer Vision, Graphics, and Image Processing",
+      "releaseDate": "2014",
+      "website": "http://www.cvgip2014.ntpu.edu.tw/",
+      "summary": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "android APP",
+      "level": "master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Algorithm Programming",
+      "level": "master",
+      "keywords": [
+        "C",
+        "C++"
+      ]
+    },
+    {
+      "name": "Website developing",
+      "level": "normal",
+      "keywords": [
+        "Django",
+        "SQL",
+        "HTML",
+        "CSS",
+        "javascript"
+      ]
+    },
+    {
+      "name": "Network Administration",
+      "level": "master",
+      "keywords": [
+        "FreeBSD",
+        "bash"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "name": "Mandarin",
+      "level": "native speaker"
+    },
+    {
+      "name": "English",
+      "level": "good"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Volleyball",
+      "keywords": [
+        "Sport"
+      ]
+    }
+  ]
+}
