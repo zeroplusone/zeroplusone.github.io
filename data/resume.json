@@ -24,22 +24,16 @@
     {
       "company": "HTC",
       "position": "Summer Intern",
-      "startDate": "2015-07-01",
-      "endDate": "2015-08-31",
-      "summary": "responsible for automation test of android framework in android multimedia framework team",
-      "highlights": [
-        "The best team in VR project"
-      ]
+      "startDate": "2015-07",
+      "endDate": "2015-08",
+      "summary": "responsible for automation test of android framework in android multimedia framework team"
     },
     {
       "company": "Yahoo!",
       "position": "Summer Intern",
-      "startDate": "2016-07-01",
-      "endDate": "2016-08-31",
-      "summary": "responsible for developing monitor dashboard in search product engineer team",
-      "highlights": [
-        ""
-      ]
+      "startDate": "2016-07",
+      "endDate": "2016-08",
+      "summary": "responsible for developing monitor dashboard in search product engineer team"
     }
   ],
   "volunteer": [
