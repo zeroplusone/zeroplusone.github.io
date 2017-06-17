@@ -6,7 +6,8 @@ title: ChiaYing Lin's Blog
     <ul class="posts">
 
       {% for post in site.posts %}
+        <!-- <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ site.url }}{{ post.url }}#disqus_thread" title="{{ post.title }}" data-disqus-identifier="{{post.url}}">{{ post.title }}</a> -->
         <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        <a href="{{ site.url }}{{ post.url }}#disqus_thread"> (0 comments)</a></li>
+        <span class="disqus-comment-count" data-disqus-identifier="{{post.url}}">? comments</span>
       {% endfor %}
     </ul>
