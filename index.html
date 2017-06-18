@@ -6,7 +6,16 @@ title: ChiaYing Lin's Profile
 <div id="aboutme" class="row">
     <div id="greeting" class="col-sm-8 col-xs-12">
         <h1>Hello! I am ChiaYing Lin</h1>
-        <p>{{site.data.resume.basics.summary}}</p>
+        <p>{{site.data.resume.basics.summary}} 
+            My research interests include 
+            {% for item in site.data.resume.interests %}
+                {% for topic in item.keywords %}
+                    <b> {{topic}}, </b>
+                {% endfor %}
+            and <b>{{item.name}}</b>
+            {%endfor%}
+        </p>
+
     </div>
     <!-- <div id="profile-picture" class="col-sm-4 col-xs-12">
         <img id="profile-picture" src="img/profile_picture.jpg">
@@ -75,7 +84,9 @@ title: ChiaYing Lin's Profile
         {% for item in site.data.resume.skills%}
         <li>{{item.name}}  
             <ul>
-                <li> project list: coming soon...</li>
+                {% for project in item.keywords %}
+                    <li> <a href="{{ project.url }}"> {{project.name}} </a></li>
+                {%endfor%}
             </ul>
         </li>
         {% endfor %}

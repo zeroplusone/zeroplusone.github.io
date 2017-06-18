@@ -58,7 +58,8 @@
       "endDate": "now",
       "gpa": "4.3",
       "courses": [
-        "Database Management System"
+        "Database Management System",
+        "Software Design"
       ]
     },
     {
@@ -78,6 +79,12 @@
   ],
   "awards": [
     {
+      "title": "Grace Hopper Celebration of Women in Computing (GHC) Scholarship",
+      "date": "2017",
+      "awarder": "Anita Borg Institution",
+      "summary": ""
+    },
+    {
       "title": "Outstanding Engineering Student Award",
       "date": "2015",
       "awarder": "Chinese Institute of Engineers, Taiwan",
@@ -91,6 +98,48 @@
     }
   ],
   "publications": [
+    {
+      "name": "Gateway-Assisted Two-Stage Radio Access for Machine Type Communication in LTE-Advanced Network",
+      "publisher": "COMPUTER COMMUNICATIONS (DOI: 10.1016/j.comcom.2016.12.017)",
+      "releaseDate": "2017",
+      "website": "http://www.sciencedirect.com/science/article/pii/S0140366416307095",
+      "summary": ""
+    },
+    {
+      "name": "Adaptive Load-balancing Scheme Through Wireless SDN-based Association Control",
+      "publisher": "Proceeding of the 31th IEEE International Conference on Advanced Information Networking and Applications (AINA'17), Taipei, Taiwan",
+      "releaseDate": "2017",
+      "website": "http://ieeexplore.ieee.org/document/7920956/",
+      "summary": ""
+    },
+    {
+      "name": "Application-aware Realtime Monitoring with Data Visualization in OpenFlow-based Network",
+      "publisher": "Proceeding of the 31th IEEE International Conference on Advanced Information Networking and Applications Workshops (WAINA'17)",
+      "releaseDate": "2017",
+      "website": "http://ieeexplore.ieee.org/document/7929709/",
+      "summary": ""
+    },
+    {
+      "name": "iParking - A Real-Time Parking Space Monitoring and Guiding System",
+      "publisher": "Vehicular Communications (DOI: 10.1016/j.vehcom.2017.04.001) ",
+      "releaseDate": "2017",
+      "website": "http://www.sciencedirect.com/science/article/pii/S2214209616301930",
+      "summary": ""
+    },
+    {
+      "name": "iParking -- Real-Time Parking Space Monitor and Guiding System with Cloud Service",
+      "publisher": "Lecture Notes in Computer Science (LNCS)",
+      "releaseDate": "2016",
+      "website": "https://link.springer.com/chapter/10.1007/978-3-319-51969-2_3",
+      "summary": ""
+    },
+    {
+      "name": "Reducing Costs of LIPA Handover through Bearer Reservation with Preemption",
+      "publisher": "IEEE Transactions on Vehicular Technology (DOI: 10.1109/TVT.2016.2646519)",
+      "releaseDate": "2016",
+      "website": "http://ieeexplore.ieee.org/document/7801973/",
+      "summary": ""
+    },
     {
       "name": "Gateway-Assisted Retransmission for Lightweight and Reliable IoT Communications",
       "publisher": "Sensors 16 (10), 1560",
@@ -115,39 +164,30 @@
   ],
   "skills": [
     {
-      "name": "android APP",
+      "name": "Android APP development",
       "level": "master",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
+        {"name":"EatOrDie", "url":"https://github.com/zeroplusone/EatOrDie"},
+        {"name":"Everywear", "url":"https://github.com/zeroplusone/Everywear"}
       ]
     },
     {
       "name": "Algorithm Programming",
       "level": "master",
       "keywords": [
-        "C",
-        "C++"
+        {"name":"AlgorithmPractice", "url":"https://github.com/zeroplusone/AlgorithmPractice"}
       ]
     },
     {
-      "name": "Website developing",
+      "name": "Object-Oriented Programming",
       "level": "normal",
       "keywords": [
-        "Django",
-        "SQL",
-        "HTML",
-        "CSS",
-        "javascript"
       ]
     },
     {
       "name": "Network Administration",
       "level": "master",
       "keywords": [
-        "FreeBSD",
-        "bash"
       ]
     }
   ],
@@ -163,9 +203,9 @@
   ],
   "interests": [
     {
-      "name": "Volleyball",
+      "name": "Mobile Networks Analysis",
       "keywords": [
-        "Sport"
+        "Internet of Things, Machine-Type Communication", "Software-Defined Networking", "Voice over LTE"
       ]
     }
   ]
