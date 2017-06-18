@@ -1,22 +1,84 @@
+--- 
+layout: default 
+title: ChiaYing Lin's Profile 
 ---
-layout: default
-title: AboutMe
----
-        <div id="aboutme" class="row">
-            <div id="greeting" class="col-sm-8 col-xs-12">
-            </div>
-            <div id="profile-picture" class="col-sm-4 col-xs-12">
-                <img id="profile-picture" src="img/profile_picture.jpg">
-            </div>
-        </div>
-        <div id="education" class="row">
-        </div>
-        <div id="experience" class="row">
-        </div>
-        <div id="publication" class="row">
-        </div>
-        <div id="awards" class="row">
-        </div>
-        <div id="projects" class="row">
-        </div>
+
+<div id="aboutme" class="row">
+    <div id="greeting" class="col-sm-8 col-xs-12">
+        <h1>Hello! I am ChiaYing Lin</h1>
+        <p>{{site.data.resume.basics.summary}}</p>
     </div>
+    <div id="profile-picture" class="col-sm-4 col-xs-12">
+        <img id="profile-picture" src="img/profile_picture.jpg">
+    </div>
+</div>
+<div id="education" class="row">
+    <h1>Education</h1>
+    <ul>
+        {% for item in site.data.resume.education%}
+        <li>{{ item.startDate}} ~ {{item.endDate}}: {{item.studyType}}, {{item.institution}}
+            <ul>
+                <li> GPA: {{item.gpa}} </li>
+                <li> Course:
+                    <ul>
+                        {% for course in item.courses %}
+                        <li> {{course}}</li>
+                        {% endfor %}
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+<div id="experience" class="row">
+    <h1>Experience</h1>
+    <ul>
+        {% for item in site.data.resume.work %}
+        <li>{{ item.startDate}} ~ {{item.endDate}}: <b>{{item.company}} {{item.position}}</b>
+            <ul>
+                <li> {{item.summary}} </li>
+            </ul>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+<div id="publications" class="row">
+    <h1>Publications</h1>
+    <ul>
+        {% for item in site.data.resume.publications%}
+        <li>
+            <a href={{item.website}}><b>{{item.name}}</b></a>
+            <ul>
+                <li> publisher: {{ite.publisher}}</li>
+                <li> release date: {{item.releaseDate}}</li>
+            </ul>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+<div id="awards" class="row">
+    <h1>Awards</h1>
+    <ul>
+        {% for item in site.data.resume.awards%}
+        <li>{{item.date}} {{item.title}} 
+            <ul>
+                <li> awarder: {{item.awarder}}</li>
+            </ul>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+<div id="projects" class="row">
+    <h1>Projects</h1>
+    <ul>
+        {% for item in site.data.resume.skills%}
+        <li>{{item.name}}  
+            <ul>
+                <li> project list: coming soon...</li>
+            </ul>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+</div>
