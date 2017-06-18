@@ -26,15 +26,37 @@ github_username:  zeroplueone
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-cayman
 #theme: minima
 gems:
   - jekyll-feed
+  - jekyll-paginate
 exclude:
   - Gemfile
   - Gemfile.lock
+  - README.md
 github: [metadata]
-permalink: /blog/:year/:month/:day/:title
+paginate: 10
+permalink: /blog/:year/:title
 
-# optional setting for cayman theme
-show_downloads: false
+# optional setting for jekyll uno
+author:
+  name: 'ChiaYing Lin'
+  email: chiayingl1993@gmail.com
+  facebook_username: chiayingl1993
+  github_username:  zeroplusone
+  linkedin_username:  ChiaYingLin
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+highlighter: rouge
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false

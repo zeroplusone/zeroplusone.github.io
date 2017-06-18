@@ -5,18 +5,27 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <link rel="icon" href="{{ site.github.url }}/img/favicon.ico">
     <title>{{ page.title }}</title>
-    <meta name="description" content="{{ page.description | default: site.description | default: site.github.project_tagline }}"/>
-    <!-- Bootstrap core CSS -->
-    <!-- <link href="{{ site.github.url }}/css/bootstrap.min.css" rel="stylesheet"> -->
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <!-- <link href="{{ site.github.url }}/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
-    <!-- Custom styles for this template -->
-    <!-- <link href="{{ site.github.url }}/css/index.css" rel="stylesheet"> -->
-    <!-- google analytics-->
-    {% include analytics.html %}
+    <meta name="description" content="{{ site.description }}" />
+    <!--jekyll uno-->
+    <meta name="author" content="{{ site.author.name }}">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ site.title }}">
+    <meta name="twitter:description" content="{{ site.description }}">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta name="p:domain_verify" content="4d6b8851cdd047126e839823e9a01b3a" /> 
+    <link rel="manifest" href="{{ site.github.url }}/img/favicons/manifest.json">
+      <meta name="theme-color" content="#ffffff">
 
-    <!-- cayman theme -->
-    <meta name="theme-color" content="#157878">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="{{ site.github.url }}/css/style.css">
+      <link rel="stylesheet" href="{{ site.github.url }}/css/main.css">
+      <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+      <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.github.url }}/feed.xml">
+
+    {% include analytics.html %}
 </head>

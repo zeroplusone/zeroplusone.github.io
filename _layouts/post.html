@@ -1,15 +1,19 @@
 --- 
 layout: default 
 ---
-
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
-<div class="post">
-    {{ content }}
-</div>
-<!-- Post comments -->
-<div class="comments">
-    {% include disqus.html %}
-</div>
-
-
+<article class="post-container post-container--single">
+    <header class="post-header">
+        <div class="post-meta">
+            <time datetime="{{ page.date | date: " %-d %b %Y " }}" class="post-meta__date date">{{ page.date | date: "%-d %b %Y" }}</time>
+            {% if page.tags.size > 0 %} &#8226; <span class="post-meta__tags">on {% for tag in page.tags %}<a href="{{ site.baseurl }}tags/#{{ tag }}">{{ tag }}</a> {% endfor %}</span> {% endif %}
+        </div>
+        <h1 class="post-title">{{ page.title }}</h1>
+    </header>
+    <section class="post">
+        {{ content }}
+    </section>
+    <!-- Post comments -->
+    <div class="comments">
+        {% include disqus.html %}
+    </div>
+</article>

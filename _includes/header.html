@@ -1,39 +1,79 @@
-<section class="page-header">
-    <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
-    <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2> 
-    <a href="{{ site.url }}" class="btn">About me</a>
-    <a href="{{ site.github.url }}/blog/" class="btn">Blog</a>
-    {% if site.github.is_project_page %}
-    <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a> {% endif %} {% if site.show_downloads %}
-    <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-    <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a> {% endif %}
-</section>
-<!--<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-            <!- The collapse button in xs ->
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <!-Nav title->
-            <a class="navbar-brand" href="#">ChiaYing Lin</a>
+<span class="mobile btn-mobile-menu">
+  <i class="icon icon-list btn-mobile-menu__icon"></i>
+  <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+</span>
+<header class="panel-cover" style="background-image: url({{ site.github.url }}/img/cover.jpg)">
+    <div class="panel-main">
+        <div class="panel-main__inner panel-inverted">
+            <div class="panel-main__content">
+                <a href="{{ site.github.url }}" title="link to home of {{ site.title }}">
+                    <img src="{{ site.github.url }}/img/profile.jpg" class="user-image" alt="My Profile Photo">
+                    <h1 class="panel-cover__title panel-title">{{ site.title }}</h1>
+                </a>
+                <hr class="panel-cover__divider">
+                <p class="panel-cover__description">{{ site.description }}</p>
+                <hr class="panel-cover__divider panel-cover__divider--secondary">
+                <div class="navigation-wrapper">
+                    <nav class="cover-navigation cover-navigation--primary">
+                        <ul class="navigation">
+                            <li class="navigation__item"><a href="{{ site.github.url }}/blog" title="link to blog" class="blog-button">Blog</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="cover-navigation navigation--social">
+                        <ul class="navigation">
+                            {% if site.author.twitter_username %}
+                            <!-- Twitter -->
+                            <li class="navigation__item">
+                                <a href="http://twitter.com/{{ site.author.twitter_username }}" title="@{{ site.author.twitter_username }} on Twitter" target="_blank">
+                                    <i class="icon icon-social-twitter"></i>
+                                    <span class="label">Twitter</span>
+                                </a>
+                            </li>
+                            {% endif %} {% if site.author.facebook_username %}
+                            <!-- Facebook -->
+                            <li class="navigation__item">
+                                <a href="http://fb.me/{{ site.author.facebook_username }}" title="{{ site.author.facebook_username }} on Facebook" target="_blank">
+                                    <i class="icon icon-social-facebook"></i>
+                                    <span class="label">Facebook</span>
+                                </a>
+                            </li>
+                            {% endif %} {% if site.author.linkedin_username %}
+                            <!-- LinkedIn -->
+                            <li class="navigation__item">
+                                <a href="https://www.linkedin.com/in/{{ site.author.linkedin_username }}" title="{{ site.author.linkedin_username }} on LinkedIn" target="_blank">
+                                    <i class="icon icon-social-linkedin"></i>
+                                    <span class="label">LinkedIn</span>
+                                </a>
+                            </li>
+                            {% endif %} {% if site.author.github_username %}
+                            <!-- GitHub -->
+                            <li class="navigation__item">
+                                <a href="https://www.github.com/{{ site.author.github_username }}" title="{{ site.author.github_username }} on GitHub" target="_blank">
+                                    <i class="icon icon-social-github"></i>
+                                    <span class="label">GitHub</span>
+                                </a>
+                            </li>
+                            {% endif %} {% if site.author.email %}
+                            <!-- Email -->
+                            <li class="navigation__item">
+                                <a href="mailto:{{ site.author.email }}" title="Email {{ site.author.email }}" target="_blank">
+                                    <i class="icon icon-mail"></i>
+                                    <span class="label">Email</span>
+                                </a>
+                            </li>
+                            {% endif %}
+                            <!-- RSS -->
+                            <li class="navigation__item">
+                                <a href="{{ " feed.xml " | prepend: site.github.url }}" title="Subscribe" target="_blank">
+                                    <i class="icon icon-rss"></i>
+                                    <span class="label">RSS</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </div>
-        <!-Nav bar->
-        <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li><a href="#education">Education</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#publications">Publication</a></li>
-                <li><a href="#awards">Awards</a></li>
-                <li><a href="#projects">Projects</a></li>
-            </ul>
-        </div>
-        <!-/.nav-collapse ->
+        <div class="panel-cover--overlay"></div>
     </div>
-</nav>
--->
-<!-- Cayman theme -->
-
+</header>
