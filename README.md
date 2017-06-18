@@ -10,7 +10,7 @@ This website is powered by **[Jekyll](https://jekyllrb.com/)** and hosted by **G
 
 [https://zeroplusone.github.io/](https://zeroplusone.github.io/)
 
-![Screen shot] (./img/ScreenShot)
+![Screen shot](https://zeroplusone.github.io/img/ScreenShot.png)
 
 ## Reference
 
