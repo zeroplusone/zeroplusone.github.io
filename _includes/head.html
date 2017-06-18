@@ -5,12 +5,18 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <link rel="icon" href="{{ site.github.url }}/img/favicon.ico">
     <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description | default: site.github.project_tagline }}"/>
     <!-- Bootstrap core CSS -->
-    <link href="{{ site.github.url }}/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="{{ site.github.url }}/css/bootstrap.min.css" rel="stylesheet"> -->
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="{{ site.github.url }}/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- <link href="{{ site.github.url }}/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
     <!-- Custom styles for this template -->
-    <link href="{{ site.github.url }}/css/index.css" rel="stylesheet">
+    <!-- <link href="{{ site.github.url }}/css/index.css" rel="stylesheet"> -->
     <!-- google analytics-->
     {% include analytics.html %}
+
+    <!-- cayman theme -->
+    <meta name="theme-color" content="#157878">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ site.github.url }}/css/style.css">
 </head>
