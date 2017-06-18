@@ -3,7 +3,13 @@
     <div id="project-name">
         <h1  class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
     </div>
-    <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2> 
+<!--     <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>  -->
+    <div class="contact">
+        <a href="http://fb.me/{{ site.author.facebook_username }}"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+        <a href="https://www.github.com/{{ site.author.github_username }}"><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/{{ site.author.linkedin_username }}"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+        <a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a>
+    </div>
     <a href="{{ site.url }}" class="btn">About me</a>
     <a href="{{ site.github.url }}/doc/CV.pdf" class="btn">CV download</a>
     <a href="{{ site.github.url }}/blog/" class="btn">Blog</a>

@@ -22,3 +22,23 @@ img {
     display: inline-block;
     vertical-align: middle;
 }
+
+.contact{
+  margin-bottom: 1rem;
+}
+
+.contact a{
+  color: white;
+}
+
+i{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  opacity: 0.7;
+}
+
+i:hover{
+  opacity: 1;
+}
+
+

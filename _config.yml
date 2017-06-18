@@ -32,7 +32,15 @@ exclude:
   - Gemfile
   - Gemfile.lock
 github: [metadata]
-permalink: /blog/:year/:month/:day/:title
+permalink: /blog/:year/:title
 
 # optional setting for cayman theme
 show_downloads: false
+
+# contact info
+author:
+  name: 'ChiaYing Lin'
+  email: chiayingl1993@gmail.com
+  facebook_username: chiayingl1993
+  github_username:  zeroplusone
+  linkedin_username:  ChiaYingLin
