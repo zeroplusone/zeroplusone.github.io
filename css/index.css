@@ -135,3 +135,18 @@ i:hover {
     background: rgb(78, 81, 88);
     color: #ffffff;
 }
+
+.post-block{
+  background: none;
+  padding:1rem;
+  border-width:medium;
+  border-style:dotted solid;
+  border-color:#c3c3c3;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.post-block:hover{
+  background: rgba(243, 243, 243, 0.85);
+
+}
