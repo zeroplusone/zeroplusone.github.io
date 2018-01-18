@@ -150,3 +150,10 @@ i:hover {
   background: rgba(243, 243, 243, 0.85);
 
 }
+
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+    width: 60%;
+}
