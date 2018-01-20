@@ -22,8 +22,8 @@ tags: [conference, GHC]
 我會將我從二月投出申請到十月參加活動，分成三個部分描述：
 
 1. [申請篇]({{ site.baseurl }}{% post_url 2018-01-17-Grace-Hopper-Celebration分享-1 %})
-2. [行前準備篇]({{ site.baseurl }}{% post_url 2018-01-17-Grace-Hopper-Celebration分享-2 %})
-3. [會議期間篇]({{ site.baseurl }}{% post_url 2018-01-17-Grace-Hopper-Celebration分享-3 %})
+2. [行前準備篇]({{ site.baseurl }}{% post_url 2018-01-17-Grace-Hopper-Celebration分享-2 %})(撰寫中...)
+3. [會議期間篇]({{ site.baseurl }}{% post_url 2018-01-17-Grace-Hopper-Celebration分享-3 %})(撰寫中...)
 
 ---
 
