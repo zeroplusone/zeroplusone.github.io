@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "2018 WeTech Qualcomm Global Scholars Program - experiece sharing"
-date: 2018-01-31
+date: 2018-07-24
 category: scholarship
 tags: [women in tech, qualcomm, wetech, iie]
 ---
