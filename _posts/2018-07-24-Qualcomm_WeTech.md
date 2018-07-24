@@ -9,7 +9,7 @@ tags: [women in tech, qualcomm, wetech, iie]
 As one of the Qualcomm IIE WeTech scholar, I got not only finalcial support but also an amazing six-month virtual mentorship.
 These resources helps me a lot with my career in computer science.
 
-![GHC Scholar badge]({{ "/img/wetech-qualcomm.jpg" | absolute_url }}){: .center-image}
+![Qualcomm Taiwan]({{ "/img/wetech-01qualcomm.jpg" | absolute_url }}){: .center-image}
 At the begining of the program, every scholar is invited to attend the orientation held in Qualcomm Taiwan.
 That't the first time I met my mentor, Amanda.
 We had a lunch before the orientation and talked a lot about my path in CS.
@@ -18,7 +18,7 @@ These answers and suggestions from the viewpoint of industry are different from 
 During the orientaion, I learned the history of Qualcomm, visit the Qualcomm office and met other scholars from EE in my university.
 This is just the start of this awesome journey.
 
-![GHC Scholar badge]({{ "/img/wetech-mentor.jpg" | absolute_url }}){: .center-image}
+![mentor and I]({{ "/img/wetech-02mentor.jpg" | absolute_url }}){: .center-image}
 During the six-months virtual mentorship, I discussed lots of career-related topics with my mentor including **assessing strengths, career planning, building CV, strenghthening interview skills, networking, enhancing technical and leadership skills**.
 In every milestone, lots of resouces, such as websites, speeches and instructions, are provided to help me to accomplish the worksheets.
 The next step, I asked some questions and seeked for some suggestions from my mentor.
