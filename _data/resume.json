@@ -1,212 +1,199 @@
 {
-  "_comment": "reference - https://jsonresume.org/schema/",
-  "basics": {
-    "name": "ChiaYing Lin",
-    "label": "Programmer",
-    "picture": "img/profile-picture.jpg",
-    "email": "a711186@gmail.com",
-    "website": "http://zeroplusone.github.io",
-    "summary": "I am a Computer Science phD student in NCKU.",
-    "profiles": [
-      {
-        "network": "Github",
-        "username": "zeroplusone",
-        "url": "https://github.com/zeroplusone"
-      },
-      {
-        "network": "LinkedIn",
-        "username": "Chia-Ying Lin",
-        "url": "https://tw.linkedin.com/in/chia-ying-lin-939492b"
-      }
-    ]
-  },
-  "work": [
-    {
-      "company": "HTC",
-      "position": "Summer Intern",
-      "startDate": "2015-07",
-      "endDate": "2015-08",
-      "summary": "responsible for automation test of android framework in android multimedia framework team"
+    "_comment": "reference - https://jsonresume.org/schema/",
+    "basics": {
+        "name": "ChiaYing Lin",
+        "label": "Programmer",
+        "picture": "img/profile-picture.jpg",
+        "email": "a711186@gmail.com",
+        "website": "http://zeroplusone.github.io",
+        "summary": "I am a Computer Science phD student in NCKU.",
+        "profiles": [{
+                "network": "Github",
+                "username": "zeroplusone",
+                "url": "https://github.com/zeroplusone"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "Chia-Ying Lin",
+                "url": "https://tw.linkedin.com/in/chia-ying-lin-939492b"
+            }
+        ]
     },
-    {
-      "company": "Yahoo!",
-      "position": "Summer Intern",
-      "startDate": "2016-07",
-      "endDate": "2016-08",
-      "summary": "responsible for developing monitor dashboard in search product engineer team"
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "NCKU student service club",
-      "position": "member",
-      "website": "https://www.facebook.com/ServiceClub.NCKU/?fref=ts",
-      "startDate": "2011",
-      "endDate": "2015",
-      "summary": "holding a camp for rural elementary school and volunteering in nursing home",
-      "highlights": [
-        "Excellent club prize in NCKU"
-      ]
-    }
-  ],
-  "education": [
-    {
-      "institution": "National Cheng Kung University",
-      "area": "Tainan, Taiwan",
-      "studyType": "phD",
-      "startDate": "2015",
-      "endDate": "now",
-      "gpa": "4.3",
-      "courses": [
-        "Database Management System",
-        "Software Design"
-      ]
-    },
-    {
-      "institution": "National Cheng Kung University",
-      "area": "Tainan, Taiwan",
-      "studyType": "Bachelor",
-      "startDate": "2011-09-01",
-      "endDate": "2015-06-30",
-      "gpa": "3.93",
-      "courses": [
-        "Competitive Algorithm Design and Practice",
-        "Computer System and Network Administration",
-        "Mobile Network and Services",
-        "Wireless Communication and Mobile Networks"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Grace Hopper Celebration of Women in Computing (GHC) Scholarship",
-      "date": "2017",
-      "awarder": "Anita Borg Institution",
-      "summary": ""
-    },
-    {
-      "title": "Outstanding Engineering Student Award",
-      "date": "2015",
-      "awarder": "Chinese Institute of Engineers, Taiwan",
-      "summary": ""
-    },
-    {
-      "title": "Garmin Scholarship",
-      "date": "2015",
-      "awarder": "Garmin",
-      "summary": ""
-    }
-  ],
-  "publications": [
-    {
-      "name": "Gateway-Assisted Two-Stage Radio Access for Machine Type Communication in LTE-Advanced Network",
-      "publisher": "COMPUTER COMMUNICATIONS (DOI: 10.1016/j.comcom.2016.12.017)",
-      "releaseDate": "2017",
-      "website": "http://www.sciencedirect.com/science/article/pii/S0140366416307095",
-      "summary": ""
-    },
-    {
-      "name": "Adaptive Load-balancing Scheme Through Wireless SDN-based Association Control",
-      "publisher": "Proceeding of the 31th IEEE International Conference on Advanced Information Networking and Applications (AINA'17), Taipei, Taiwan",
-      "releaseDate": "2017",
-      "website": "http://ieeexplore.ieee.org/document/7920956/",
-      "summary": ""
-    },
-    {
-      "name": "Application-aware Realtime Monitoring with Data Visualization in OpenFlow-based Network",
-      "publisher": "Proceeding of the 31th IEEE International Conference on Advanced Information Networking and Applications Workshops (WAINA'17)",
-      "releaseDate": "2017",
-      "website": "http://ieeexplore.ieee.org/document/7929709/",
-      "summary": ""
-    },
-    {
-      "name": "iParking - A Real-Time Parking Space Monitoring and Guiding System",
-      "publisher": "Vehicular Communications (DOI: 10.1016/j.vehcom.2017.04.001) ",
-      "releaseDate": "2017",
-      "website": "http://www.sciencedirect.com/science/article/pii/S2214209616301930",
-      "summary": ""
-    },
-    {
-      "name": "iParking -- Real-Time Parking Space Monitor and Guiding System with Cloud Service",
-      "publisher": "Lecture Notes in Computer Science (LNCS)",
-      "releaseDate": "2016",
-      "website": "https://link.springer.com/chapter/10.1007/978-3-319-51969-2_3",
-      "summary": ""
-    },
-    {
-      "name": "Reducing Costs of LIPA Handover through Bearer Reservation with Preemption",
-      "publisher": "IEEE Transactions on Vehicular Technology (DOI: 10.1109/TVT.2016.2646519)",
-      "releaseDate": "2016",
-      "website": "http://ieeexplore.ieee.org/document/7801973/",
-      "summary": ""
-    },
-    {
-      "name": "Gateway-Assisted Retransmission for Lightweight and Reliable IoT Communications",
-      "publisher": "Sensors 16 (10), 1560",
-      "releaseDate": "2016",
-      "website": "http://www.mdpi.com/1424-8220/16/10/1560/htm",
-      "summary": ""
-    },
-    {
-      "name": "Optimistic DRX for machine-type communications",
-      "publisher": "Communications (ICC), 2016 IEEE International Conference",
-      "releaseDate": "2016",
-      "website": "http://ieeexplore.ieee.org/abstract/document/7510813/",
-      "summary": ""
-    },
-    {
-      "name": "Finding Nearby Available Roadside Parking Spot",
-      "publisher": "The 27th IPPR Conference on Computer Vision, Graphics, and Image Processing",
-      "releaseDate": "2014",
-      "website": "http://www.cvgip2014.ntpu.edu.tw/",
-      "summary": ""
-    }
-  ],
-  "skills": [
-    {
-      "name": "Android APP development",
-      "level": "master",
-      "keywords": [
-        {"name":"EatOrDie", "url":"https://github.com/zeroplusone/EatOrDie"},
-        {"name":"Everywear", "url":"https://github.com/zeroplusone/Everywear"}
-      ]
-    },
-    {
-      "name": "Algorithm Programming",
-      "level": "master",
-      "keywords": [
-        {"name":"AlgorithmPractice", "url":"https://github.com/zeroplusone/AlgorithmPractice"}
-      ]
-    },
-    {
-      "name": "Object-Oriented Programming",
-      "level": "normal",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "Network Administration",
-      "level": "master",
-      "keywords": [
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "name": "Mandarin",
-      "level": "native speaker"
-    },
-    {
-      "name": "English",
-      "level": "good"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Mobile Networks Analysis",
-      "keywords": [
-        "Internet of Things, Machine-Type Communication", "Software-Defined Networking", "Voice over LTE"
-      ]
-    }
-  ]
+    "work": [{
+            "company": "HTC",
+            "position": "Summer Intern",
+            "startDate": "2015-07",
+            "endDate": "2015-08",
+            "summary": "responsible for automation test of android framework in android multimedia framework team"
+        },
+        {
+            "company": "Yahoo!",
+            "position": "Summer Intern",
+            "startDate": "2016-07",
+            "endDate": "2016-08",
+            "summary": "responsible for developing monitor dashboard in search product engineer team"
+        }
+    ],
+    "volunteer": [{
+        "organization": "NCKU student service club",
+        "position": "member",
+        "website": "https://www.facebook.com/ServiceClub.NCKU/?fref=ts",
+        "startDate": "2011",
+        "endDate": "2015",
+        "summary": "holding a camp for rural elementary school and volunteering in nursing home",
+        "highlights": [
+            "Excellent club prize in NCKU"
+        ]
+    }],
+    "education": [{
+            "institution": "National Cheng Kung University",
+            "area": "Tainan, Taiwan",
+            "studyType": "phD",
+            "startDate": "2015",
+            "endDate": "now",
+            "gpa": "4.3",
+            "courses": [
+                "Database Management System",
+                "Software Design"
+            ]
+        },
+        {
+            "institution": "National Cheng Kung University",
+            "area": "Tainan, Taiwan",
+            "studyType": "Bachelor",
+            "startDate": "2011-09-01",
+            "endDate": "2015-06-30",
+            "gpa": "3.93",
+            "courses": [
+                "Competitive Algorithm Design and Practice",
+                "Computer System and Network Administration",
+                "Mobile Network and Services",
+                "Wireless Communication and Mobile Networks"
+            ]
+        }
+    ],
+    "awards": [{
+            "title": "Grace Hopper Celebration of Women in Computing (GHC) Scholarship",
+            "date": "2017",
+            "awarder": "Anita Borg Institution",
+            "summary": ""
+        },
+        {
+            "title": "Outstanding Engineering Student Award",
+            "date": "2015",
+            "awarder": "Chinese Institute of Engineers, Taiwan",
+            "summary": ""
+        },
+        {
+            "title": "Garmin Scholarship",
+            "date": "2015",
+            "awarder": "Garmin",
+            "summary": ""
+        }
+    ],
+    "publications": [{
+            "name": "Gateway-Assisted Two-Stage Radio Access for Machine Type Communication in LTE-Advanced Network",
+            "publisher": "COMPUTER COMMUNICATIONS (DOI: 10.1016/j.comcom.2016.12.017)",
+            "releaseDate": "2017",
+            "website": "http://www.sciencedirect.com/science/article/pii/S0140366416307095",
+            "summary": ""
+        },
+        {
+            "name": "Adaptive Load-balancing Scheme Through Wireless SDN-based Association Control",
+            "publisher": "Proceeding of the 31th IEEE International Conference on Advanced Information Networking and Applications (AINA'17), Taipei, Taiwan",
+            "releaseDate": "2017",
+            "website": "http://ieeexplore.ieee.org/document/7920956/",
+            "summary": ""
+        },
+        {
+            "name": "Application-aware Realtime Monitoring with Data Visualization in OpenFlow-based Network",
+            "publisher": "Proceeding of the 31th IEEE International Conference on Advanced Information Networking and Applications Workshops (WAINA'17)",
+            "releaseDate": "2017",
+            "website": "http://ieeexplore.ieee.org/document/7929709/",
+            "summary": ""
+        },
+        {
+            "name": "iParking - A Real-Time Parking Space Monitoring and Guiding System",
+            "publisher": "Vehicular Communications (DOI: 10.1016/j.vehcom.2017.04.001) ",
+            "releaseDate": "2017",
+            "website": "http://www.sciencedirect.com/science/article/pii/S2214209616301930",
+            "summary": ""
+        },
+        {
+            "name": "iParking -- Real-Time Parking Space Monitor and Guiding System with Cloud Service",
+            "publisher": "Lecture Notes in Computer Science (LNCS)",
+            "releaseDate": "2016",
+            "website": "https://link.springer.com/chapter/10.1007/978-3-319-51969-2_3",
+            "summary": ""
+        },
+        {
+            "name": "Reducing Costs of LIPA Handover through Bearer Reservation with Preemption",
+            "publisher": "IEEE Transactions on Vehicular Technology (DOI: 10.1109/TVT.2016.2646519)",
+            "releaseDate": "2016",
+            "website": "http://ieeexplore.ieee.org/document/7801973/",
+            "summary": ""
+        },
+        {
+            "name": "Gateway-Assisted Retransmission for Lightweight and Reliable IoT Communications",
+            "publisher": "Sensors 16 (10), 1560",
+            "releaseDate": "2016",
+            "website": "http://www.mdpi.com/1424-8220/16/10/1560/htm",
+            "summary": ""
+        },
+        {
+            "name": "Optimistic DRX for machine-type communications",
+            "publisher": "Communications (ICC), 2016 IEEE International Conference",
+            "releaseDate": "2016",
+            "website": "http://ieeexplore.ieee.org/abstract/document/7510813/",
+            "summary": ""
+        },
+        {
+            "name": "Finding Nearby Available Roadside Parking Spot",
+            "publisher": "The 27th IPPR Conference on Computer Vision, Graphics, and Image Processing",
+            "releaseDate": "2014",
+            "website": "http://www.cvgip2014.ntpu.edu.tw/",
+            "summary": ""
+        }
+    ],
+    "skills": [{
+            "name": "Android APP development",
+            "level": "master",
+            "keywords": [
+                { "name": "EatOrDie", "url": "https://github.com/zeroplusone/EatOrDie" },
+                { "name": "Everywear", "url": "https://github.com/zeroplusone/Everywear" }
+            ]
+        },
+        {
+            "name": "Algorithm Programming",
+            "level": "master",
+            "keywords": [
+                { "name": "AlgorithmPractice", "url": "https://github.com/zeroplusone/AlgorithmPractice" }
+            ]
+        },
+        {
+            "name": "Object-Oriented Programming",
+            "level": "normal",
+            "keywords": []
+        },
+        {
+            "name": "Network Administration",
+            "level": "master",
+            "keywords": []
+        }
+    ],
+    "languages": [{
+            "name": "Mandarin",
+            "level": "native speaker"
+        },
+        {
+            "name": "English",
+            "level": "good"
+        }
+    ],
+    "interests": [{
+        "name": "Mobile Networks Analysis",
+        "keywords": [
+            "Internet of Things, Machine-Type Communication", "Software-Defined Networking", "Voice over LTE"
+        ]
+    }]
 }
