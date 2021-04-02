@@ -16,9 +16,7 @@
 title: Chia-Ying Lin's Page
 email: chiayingl1993@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This is Chia-Ying Lin 林佳瑩 zeroplusone Page.
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
@@ -63,6 +61,9 @@ author:
   bio: "Server-side developer focusing on spring boot framework. Enthusiastic learner, java developer, algorithm lover.
 "
   links:
+    - label: "Mail"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:chiayingl1993@gmail.com"
     - label: "Resume"
       icon: "fas fa-fw fa-link"
       url: "doc/CV.pdf"
