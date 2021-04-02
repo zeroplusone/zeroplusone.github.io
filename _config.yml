@@ -13,10 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+locale: zh-TW
 title: Chia-Ying Lin's Page
 email: chiayingl1993@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is Chia-Ying Lin 林佳瑩 zeroplusone Page.
+url: "https://zeroplusone.github.io/"
+logo: "/assets/images/web-icon.ico"
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
