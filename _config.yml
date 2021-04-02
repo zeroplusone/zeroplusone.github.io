@@ -91,6 +91,9 @@ defaults:
       comments: true
       share: false
       related: true
+      toc: true
+      toc_label: "Table of Contents"
+      toc_icon: "list"
   # _pages
   - scope:
       path: "_pages"
