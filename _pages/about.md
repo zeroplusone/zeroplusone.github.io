@@ -14,7 +14,3 @@ MySQL, Elasticsearch, Redis, Hbase), Kafka, Kubernetes*.
 
 As a female engineer, I volunteer to communities, which supports women in tech, such as **PyLadies Taiwan** and **Grace Hopper
 Celebration**.
-
-- **2019.08~2020.09** team member in Pyladies Taiwan website team
-- **2020.04** GHC reviewer of Scholar program
-- **2020.08~current** team leader in Pyladies Taiwan website team
