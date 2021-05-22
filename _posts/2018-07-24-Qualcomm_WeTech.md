@@ -1,5 +1,5 @@
 ---
-title: "2018 WeTech Qualcomm Global Scholars Program - experiece sharing"
+title: "2018 WeTech Qualcomm Global Scholars Program - experience sharing"
 date: 2018-07-24
 category: 
   - scholarship
